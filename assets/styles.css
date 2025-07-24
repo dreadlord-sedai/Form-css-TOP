@@ -139,6 +139,21 @@ a {
     width: 100%;
 }
 
+/* Default input border */
+input {
+  border: 1px solid #E5E7EB;
+}
+
+/* Red border for invalid password fields */
+input[type="password"]:invalid {
+  border: 2px solid #d73953;
+}
+
+input:focus {
+  border: 2px solid #007ec2 ;
+  outline: none;
+}
+
 .submit-button {
     background-color: var(--color-primary);
     color: var(--color-white);
